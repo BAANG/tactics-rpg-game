@@ -1,0 +1,140 @@
+[
+    {
+        "tackle": {
+            "category": "attack",
+            "type": "normal",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 35,
+            "modifiers": []
+        },
+        "scratch": {
+            "category": "attack",
+            "type": "normal",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 35,
+            "modifiers": []
+        },
+        "quickAttack": {
+            "category": "attack",
+            "type": "normal",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 30,
+            "modifiers": [
+                "priority"
+            ]
+        },
+        "thunderShock": {
+            "category": "attack",
+            "type": "electric",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 30,
+            "modifiers": [
+                {
+                    "paralyze": 0.1
+                }
+            ]
+        },
+        "ember": {
+            "category": "attack",
+            "type": "fire",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 25,
+            "modifiers": [
+                {
+                    "burn": 0.1
+                }
+            ]
+        },
+        "waterGun": {
+            "category": "attack",
+            "type": "water",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 25,
+            "modifiers": []
+        },
+        "vineWhip": {
+            "category": "attack",
+            "type": "grass",
+            "damage": 4,
+            "accuracy": 1,
+            "pp": 25,
+            "modifiers": []
+        },
+        "leechSeed": {
+            "category": "status",
+            "type": "grass",
+            "damage": 0,
+            "accuracy": 0.9,
+            "pp": 10,
+            "modifiers": [
+                {
+                    "leech": 1
+                }
+            ]
+        },
+        "growl": {
+            "category": "status",
+            "type": null,
+            "damage": 0,
+            "accuracy": 1,
+            "pp": 40,
+            "modifiers": [
+                {
+                    "atkDown": 1
+                }
+            ]
+        },
+        "tailWhip": {
+            "category": "status",
+            "type": null,
+            "damage": 0,
+            "accuracy": 1,
+            "pp": 30,
+            "modifiers": [
+                "defDown"
+            ]
+        },
+        "thunderWave": {
+            "category": "status",
+            "type": null,
+            "damage": 0,
+            "accuracy": 0.9,
+            "pp": 20,
+            "modifiers": [
+                {
+                    "paralyze": 0.9
+                }
+            ]
+        },
+        "smokeScreen": {
+            "category": "status",
+            "type": null,
+            "damage": 0,
+            "accuracy": 1,
+            "pp": 20,
+            "modifiers": [
+                {
+                    "accDown": 1
+                }
+            ]
+        },
+        "withdraw": {
+            "category": "status",
+            "type": null,
+            "damage": 0,
+            "accuracy": 1,
+            "pp": 30,
+            "modifiers": [
+                {
+                    "defUp": 1
+                }
+            ]
+        }
+    }
+]
