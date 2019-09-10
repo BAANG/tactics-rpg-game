@@ -9,6 +9,11 @@ Any attacks made will have the following features:
         - Damage = (pikachu.attack + tackle.power) - bulbasaur.defense
     - For Bulbasaur counter attack (special type attack)
         - Damage = (bulbasaur.spAttack + vineWhip.power) - pikachu.spDefense
+    - Determine Type Advantage (True, False, or Null)
+    - If Type Advantage is True, 
+        - multiply Damage by 1.5
+    - If Type Advantage is False, 
+        - multiply Damage by .5
     - Only subtract damage from hp if damage is greater than zero
         
 - Hit Chance
